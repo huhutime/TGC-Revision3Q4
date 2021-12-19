@@ -1,0 +1,41 @@
+/* parent */
+.container {
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0;
+  justify-content: center;
+}
+/* child */
+.box1 {
+  height: 400px;
+  width: 400px;
+  background-color: lightpink;
+  order: 1;
+}
+.box2 {
+  height: 400px;
+  width: 400px;
+  background-color: pink;
+  order: 1;
+}
+.box3 {
+  height: 400px;
+  width: 400px;
+  background-color: hotpink;
+  order: 1;
+}
+.box4 {
+  height: 400px;
+  width: 400px;
+  background-color: fuchsia;
+  order: 1;
+}
+.box5 {
+  height: 400px;
+  width: 400px;
+  background-color: darkmagenta;
+  order: 1;
+}
